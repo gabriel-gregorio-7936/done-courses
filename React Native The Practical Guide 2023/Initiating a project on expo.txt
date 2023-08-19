@@ -1,0 +1,9 @@
+Install node.js 16 LTS
+
+npm install 
+
+expo init RNCourse
+
+npm start
+
+npx expo start

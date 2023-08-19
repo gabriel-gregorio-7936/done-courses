@@ -1,0 +1,11 @@
+https://dev.mysql.com/downloads/file/?id=516465
+
+download mySQL from the site
+
+
+create database giraffe;
+
+install popsql text editor:
+https://popsql.com/?flash=eyJzdWNjZXNzIjoiV2VsY29tZSB0byBQb3BTUUwhIiwidXNlcl9pZF90aGF0X2p1c3Rfc2lnbmVkX3VwIjo0Njc0ODEsInVzZXJfZW1haWxfdHlwZSI6InB1YmxpYyJ9
+
+

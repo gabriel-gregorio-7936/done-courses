@@ -1,0 +1,19 @@
+1 INT 					-- Whole Numbers
+2 DECIMAL(M,N) 				-- Decimal Numbers - Exact Value
+3 VARCHAR(1)				-- String of text of length 1
+4 BLOB					-- Binary Large Object, Stores large data
+5 DATE					-- 'YYYY-MM-DD'
+6 TIMESTAMP				-- 'YYYY-MM-DD HH:MM:SS' - used for recording event
+
+
+CREATE TABLE student (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(20),
+    major VARCHAR(20),
+	PRIMARY KEY(student_id)
+);
+
+DESCRIBE student;
+DROP TABLE student;
+ALTER TABLE student ADD gpa DECIMAL(3, 2);
+ALTER TABLE student DROP COLUMN gpa;

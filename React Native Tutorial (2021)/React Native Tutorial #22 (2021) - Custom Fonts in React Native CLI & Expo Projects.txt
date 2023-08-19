@@ -1,0 +1,19 @@
+Download familys from fonts.google.com
+
+Create react-native.config.js
+
+module.exports = {
+    assets:['./assets/fonts']
+}
+
+
+npx react-native link on command line
+
+fontFamily: 'IndieFlower-Regular'
+
+
+
+
+expo install @expo-google-fonts/dancing-script
+
+expo install expo-app-loading

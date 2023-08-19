@@ -1,0 +1,33 @@
+jrpg image of white penguin animal, wielding a katana, angry | right profile | centered | key visual | intricate | highly detailed | breathtaking | precise lineart | vibrant | panoramic | cinematic | Conrad Roset
+
+negative:
+woman, human face, human hair, human body, human form, extra head, two heads, two faces, extra globe, double, extra, replicat, replicant, watermark, letters, text, letters, signature, artifacts, extra artifacts, watermark, kitsch, letters,
+
+
+Finetuned Model
+Deliberate 1.1
+
+
+
+Lalisa Manobal blackpink kpop in Studio Ghibli poster style, no text elements, icons, pastel colors, green sweater, comic page layout, vector style, digital art, 4K, intricate details, mesmerizing, professionally made, beautiful vector illustration, 12K resolution, 3D, all characters in detailed full body, highly detailed, vibrant, ultra high quality, Hyperrealism, Photorealism, [octane render]
+
+Negative prompt:Texts, extra heads, extra hands, extra parts, freak, poorly drawn, ugly, ugly face, missing limb, missing hands, missing heads, missing parts, watermark, weird, anomaly, abnormal, photo, 3D, overlap, signature, text
+
+RPG 4.0
+
+
+
+
+Dancer fine art filigree, paper marbling! Oil splash!! Oil stained!!", intricate hyperdetailed fluid gouache illustration by Android Jones: By Ismail Inceoglu and Jean Baptiste mongue: James Jean: Erin Hanson: Dan Mumford: professional photography, natural lighting, volumetric lighting maximalist photoillustration 8k resolution concept art intricately detailed, complex, elegant, expansive, fantastical
+Negative prompt:lowres, bad anatomy, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, blurry
+
+Finetuned Model
+RPG 4.0
+
+
+
+flat vector art, woman, beautiful anime style woman, flat color, wide angle, clean detailed faces, intracate clothing, analogous colors, glowing shadows, beautiful gradient, depth of field, clean image, high quality, high detail, high definition, Luminous Studio graphics engine, cute face, slim waist, nice hips,
+Negative prompt:two faces, two figures, black man, duplicate, copy, multi, two, disfigured, ugly, grain, low resolution, deformed, blurred, bad anatomy, badly drawn face, mutation, mutated, extra limb, ugly, badly drawn arms, missing limb, floating limbs, detached limbs, deformed arms, out of focus, long neck, long body, disgusting, badly drawn, childish, disfigured, tile, badly drawn arms, badly drawn legs, badly drawn face, out of frame, extra limbs, deformed, body out of frame, watermark, grainy, clipped, bad proportion, cropped image, blur haze
+
+Finetuned Model
+DreamShaper 3.2

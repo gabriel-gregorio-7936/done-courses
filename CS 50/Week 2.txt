@@ -1,0 +1,36 @@
+make hello
+./hello
+
+clang -o hello hello.c
+./hello
+
+clang -o hello hello.c -lcs50
+
+preprocessing
+compiling
+assembling
+linking
+
+debug50 ./hello
+
+
+bool	1 byte
+int	4 bytes
+long	8 bytes
+float 	4 bytes
+double	8 bytes
+char	1 byte
+string	? bytes
+
+#include <string.h>
+strlen()
+#include <ctype.h>
+toupper(s[i])
+
+
+cowsay moo
+
+cowsay -f duck quack
+cowsay -f dragon RAWR
+
+echo $?

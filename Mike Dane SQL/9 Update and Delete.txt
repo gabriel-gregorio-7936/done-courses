@@ -1,0 +1,35 @@
+other comparison ops:
+=	: equals
+<>	: not equals
+>	: greather than
+<	: less than
+>=	: greather than or equal
+<=	: less than or equal
+
+
+
+SELECT * FROM student;
+
+
+UPDATE student
+SET major = 'Bio'
+WHERE major = 'Biology';
+
+
+UPDATE student
+SET major = 'Bio'
+WHERE major = 'Biology' OR major = 'Chemistry';
+
+
+UPDATE student
+SET name = 'Tom', major = 'undecided'
+WHERE student_id = 1;
+
+
+DELETE FROM student; -- delete all the rows of the table
+
+DELETE FROM student
+WHERE student_id = 5;
+
+DELETE FROM student
+WHERE name = 'Tom' AND major = 'undecided';

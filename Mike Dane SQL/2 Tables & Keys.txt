@@ -1,0 +1,5 @@
+sergey key: not mapping in the real world
+natural key: mapping in the real world
+foreign key: links to another table (primary key of another table)
+
+

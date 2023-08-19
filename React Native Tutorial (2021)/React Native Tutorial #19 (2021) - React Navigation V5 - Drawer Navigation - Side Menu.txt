@@ -1,0 +1,100 @@
+https://reactnavigation.org/docs/drawer-based-navigation/
+npm install @react-navigation/drawer
+
+	If you have a Expo managed project, in your project directory, run:
+npx expo install react-native-gesture-handler react-native-reanimated
+
+	If you have a bare React Native project, in your project directory, run:
+npm install react-native-gesture-handler react-native-reanimated
+
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
+import { NavigationContainer } from '@react-navigation/native';
+import React from 'react'
+import { StyleSheet, View, Text, Pressable } from 'react-native'
+import ScreenA from './ScreenA';
+import ScreenB from './ScreenB';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesom5';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+
+//const Tab = createBottomTabNavigator();
+//const Tab = createMaterialBottomTabNavigator();
+const Drawer = createDrawerNavigator();
+
+function App () {
+  return (
+    <NavigationContainer>
+      <Drawer.Navigator
+        initialRouteName='Screen_B'
+        drawerPosition='right'
+        drawerType='front' // front mode is better
+        edgeWidth={500}
+        hideStatusBar={true}
+        overlayColor='#000000090' // cria uma cor fora da área da sidebar
+        drawerStyle={{
+          backgroundColor: '#e6e6e6',
+          width: 250,
+        }}
+        screenOptions={{
+          headerShown: true,
+          swipeEnabled: true,
+          gestureEnabled: true,
+          headerTitleAlign: 'center',
+          headerStyle: {
+            backgroundColor: '#0080ff'
+          },
+          headerTintColor: '#ffffff',
+          headerTitleStyle: {
+            fontSize: 25,
+            fontWeight: 'bold',
+          }
+        }}
+      >
+        <Drawer.Screen
+          name="Screen_A"
+          component={ScreenA}
+          options={{
+            title: 'Screen_A Title',
+            drawerIcon:() => (
+              <FontAwesome5 
+                name='autoprefixer'
+                size={focused ? 25 : 20}
+                color={focused ? '#0080ff' : '999999'}
+              />
+            )
+          }}
+        />
+        <Drawer.Screen 
+          name="Screen_B"
+          component={ScreenB}
+          options={{
+            title: 'Screen_B Title',
+            drawerIcon:() => (
+              <FontAwesome5 
+                name='btc'
+                size={focused ? 25 : 20}
+                color={focused ? '#0080ff' : '999999'}
+              />
+            )
+          }}
+        />
+      </Drawer.Navigator>
+    </NavigationContainer>
+  )
+}
+
+const styles = StyleSheet.create({
+  body: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  text: {
+    fontSize: 40,
+    fontWeight: 'bold',
+    margin: 10,
+  }
+})
+
+export default App;

@@ -1,0 +1,12 @@
+What is a DataBase (DB):
+	any collection of related information;
+	Database Management Systems (DBMS)
+	C.R.U.D. : Create, Read, Update, Delete
+
+Two types of Databases
+	Relational databases (SQL): organize data into one or more tables
+	Non-relational (noSQL): organize data in anything but a traditional table
+	
+SQL: Structured Query Language
+
+https://www.mikedane.com/databases/sql/sql-basics/

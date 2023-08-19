@@ -1,0 +1,14 @@
+10:28
+https://react-native-async-storage.github.io/async-storage/docs/install
+Install
+With npm:
+
+npm install @react-native-async-storage/async-storage
+With Yarn:
+
+yarn add @react-native-async-storage/async-storage
+With Expo CLI:
+
+npx expo install @react-native-async-storage/async-storage
+
+./gradlew clean on command line

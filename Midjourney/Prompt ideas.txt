@@ -1,0 +1,29 @@
+Prompt:
+A stunningly beautiful woman, dressed in tight jeans that accentuate her feminine form and a tight blouse which accentuates her feminine form, suntanned, stunningly rapturously gorgeous, immensely attractive, extremely appealing, obviously flirty and playful, digital painting, digital illustration, extreme detail, digital art, 4k, ultra hd, Anna Dittmann, hyperrealism, trending on artstation, polished, beautiful, radiant, synesthesia, vibrant, photorealistic, 8k ultra hd, unreal engine 5
+
+Negative prompt:plastic, Deformed, blurry, bad anatomy, bad eyes, crossed eyes, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ((((mutated hands and fingers)))), (((out of frame))), blender, doll, cropped, low-res, close-up, poorly-drawn face, out of frame double, two heads, blurred, ugly, disfigured, too many fingers, deformed, repetitive, black and white, grainy, extra limbs, bad anatomy
+
+
+
+Prompt:
+portrait painting of a beautiful witch princess, wearing all white, ultra realistic, concept art, intricate details, eerie, highly detailed, photorealistic, octane render, 8 k, unreal engine. art by artgerm and greg rutkowski and alphonse mucha
+
+Negative prompt:ugly, distort, fix post, double head, unproportioned, double image, color error, dual image, distort body, muddy color, show teeth, distort hand, distort head
+
+
+Prompt:
+cover, hyperdetailed painting, luminism, Bar lighting, complex, head and shoulders portrait: photorealistic masterpiece: golden ratio: 4k resolution concept art portrait by Greg Rutkowski, Artgerm, WLOP, Alphonse Mucha: by marton bobzert
+
+Negative prompt:2 heads, 2 faces, cropped image, out of frame, draft, deformed hands, signatures, twisted fingers, double image, long neck, malformed hands, multiple heads, extra limb, ugly, poorly drawn hands, missing limb, disfigured, cut-off, ugly, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, floating limbs, disconnected limbs, long body, disgusting, poorly drawn, mutilated, mangled, surreal, extra fingers, duplicate artefacts, morbid, gross proportions, missing arms, mutated hands, mutilated hands, cloned face, malformed
+
+
+Prompt ideas for logos:
+vector tshirt illustration broken skull whit crown
+
+Prompt for logo:
+star, minimalist, logotype, vector
+
+Negative prompt:cropped head, plastic, Deformed, blurry, bad anatomy, bad eyes, crossed eyes, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ((((mutated hands and fingers)))), (((out of frame))), blender, doll, cropped, low-res, close-up, poorly-drawn face, out of frame double, two heads, blurred, ugly, disfigured, too many fingers, deformed, repetitive, black and white, grainy, extra limbs, bad anatomy
+
+Ideas:
+Negative prompt:Dripping paint, 2 heads, 2 faces, cropped image, out of frame, deformed hands, twisted fingers, double image, malformed hands, multiple heads, extra limb, ugly, poorly drawn hands, missing limb, disfigured, cut off, ugly, grain, low res, deformed, blurry, bad anatomy, disfigured, poorly drawn face, floating limbs, disconnected limbs, disgusting, poorly drawn, mangled, extra fingers, duplicate artifacts, missing arms, mutated hands, mutilated hands, cloned face, malformed

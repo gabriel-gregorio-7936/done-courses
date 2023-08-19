@@ -1,0 +1,4 @@
+flexDirection: 'column' or 'row'
+justifyContent: 'space-between' or 
+
+the <Text> element doesnt support rounded corners in iOS, so put everything inside a <View> element

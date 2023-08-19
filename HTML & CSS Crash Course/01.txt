@@ -1,0 +1,26 @@
+https://www.youtube.com/watch?v=gXLjWRteuWI
+1:18:48
+https://www.figma.com/file/ReJbOWDc0WR1uizrsgfyfQ/project?node-id=1%3A2&t=QuLXKa3AZokgufkq-0
+
+HTML:
+<div class="hey">sup</div>
+div - element name
+class - attribute
+hey - value
+sup - content
+
+CSS:
+.hey {
+	background: blue;
+	font-size: 1em;
+}
+hey - selector
+background: blue - declaration
+background - property
+blue - value
+
+
+For margins and paddings use 1.5em;
+For font-size use 1.3rem;
+
+https://bennettfeely.com/clippy/

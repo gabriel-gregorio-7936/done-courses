@@ -1,0 +1,30 @@
+import React from 'react'
+import { StyleSheet, View, Text, Button, Linking } from 'react-native'
+
+function App() {
+  return (
+    <View style={styles.body}>
+      <Text style={styles.text}>Programming with Mash</Text>
+      <Button title='youtube channel' onPress={()=>{Linking.openURL('https://youtube.com/programmingwithmash')}}></Button>
+    </View>
+  )
+}
+
+// Defining the styles of the elements
+const styles = StyleSheet.create ({
+  body: {
+    flex: 1,
+    backgroundColor: '#0000ff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  text: {
+    color: '#fff',
+    fontSize: 20,
+    fontStyle: 'italic',
+    margin: 10,
+  }
+})
+
+// Exporting the app
+export default App;

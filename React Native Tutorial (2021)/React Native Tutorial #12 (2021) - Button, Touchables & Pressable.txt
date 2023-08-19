@@ -1,0 +1,394 @@
+Button: 
+
+import React, {useState} from 'react'
+import { StyleSheet, View, Text, Button } from 'react-native'
+import { TextInput } from 'react-native-gesture-handler'
+
+const App = () => {
+
+  const [name, SetName] = useState('');
+  const [submitted, SetSubmitted] = useState(false);
+  const onPressHandler = () => {
+    SetSubmitted(!submitted);
+  }
+  
+  return (
+    <View style={styles.body}>
+      <Text style={styles.text}>
+        Please write your name: 
+      </Text>
+      <TextInput 
+        multiline
+        style={styles.input} 
+        placeholder='e.g. John'
+        onChangeText={(value) => SetName(value)}
+        keyboardType='numeric'
+        maxLength={4}
+        editable={false}
+        secureTextEntry
+      />
+      <Button 
+        title={submitted? 'Clear' : 'Submit'}
+        onPress={onPressHandler}
+        disabled={submitted}
+        color='#00f'
+      />
+      {submitted?
+        <Text style={styles.text}>
+          You are registered as {name} 
+        </Text>
+        :
+        null
+      }
+    </View>
+  )
+}
+
+const styles = StyleSheet.create ({
+  body: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+    alignItems: 'center',
+  },
+  text: {
+    color: '#000000',
+    fontSize: 20,
+    margin: 10,
+  },
+  input: {
+    width: 200,
+    borderWidth: 1,
+    borderColor: '#555',
+    borderRadius: 5,
+    textAlign: 'center',
+    fontSize: 20,
+    margin: 10,
+  },
+})
+
+export default App;
+
+
+
+
+TouchableOpacity:
+
+import React, {useState} from 'react'
+import { StyleSheet, View, Text, Button, TouchableOpacity } from 'react-native'
+import { TextInput } from 'react-native-gesture-handler'
+
+const App = () => {
+
+  const [name, SetName] = useState('');
+  const [submitted, SetSubmitted] = useState(false);
+  const onPressHandler = () => {
+    SetSubmitted(!submitted);
+  }
+  
+  return (
+    <View style={styles.body}>
+      <Text style={styles.text}>
+        Please write your name: 
+      </Text>
+      <TextInput 
+        multiline
+        style={styles.input} 
+        placeholder='e.g. John'
+        onChangeText={(value) => SetName(value)}
+        keyboardType='numeric'
+        maxLength={4}
+        editable={false}
+        secureTextEntry
+      />
+      <TouchableOpacity
+        style={styles.button}
+        onPress={onPressHandler}
+        activeOpactiy={0.9}
+      >
+        <Text style={styles.text}>{submitted ? 'Clear' : 'Submit'}</Text>
+      </TouchableOpacity>
+      {submitted?
+        <Text style={styles.text}>
+          You are registered as {name} 
+        </Text>
+        :
+        null
+      }
+    </View>
+  )
+}
+
+const styles = StyleSheet.create ({
+  body: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+    alignItems: 'center',
+  },
+  text: {
+    color: '#000000',
+    fontSize: 20,
+    margin: 10,
+  },
+  input: {
+    width: 200,
+    borderWidth: 1,
+    borderColor: '#555',
+    borderRadius: 5,
+    textAlign: 'center',
+    fontSize: 20,
+    margin: 10,
+  },
+  button: {
+    width: 150,
+    height: 50,
+    backgroundColor: '#00ff00',
+    alignItems: 'center',
+  },
+})
+
+export default App;
+
+
+
+
+TouchableHighlight:
+
+import React, {useState} from 'react'
+import { StyleSheet, View, Text, Button, TouchableOpacity, TouchableHighlight } from 'react-native'
+import { TextInput } from 'react-native-gesture-handler'
+
+const App = () => {
+
+  const [name, SetName] = useState('');
+  const [submitted, SetSubmitted] = useState(false);
+  const onPressHandler = () => {
+    SetSubmitted(!submitted);
+  }
+  
+  return (
+    <View style={styles.body}>
+      <Text style={styles.text}>
+        Please write your name: 
+      </Text>
+      <TextInput 
+        multiline
+        style={styles.input} 
+        placeholder='e.g. John'
+        onChangeText={(value) => SetName(value)}
+        keyboardType='numeric'
+        maxLength={4}
+        editable={false}
+        secureTextEntry
+      />
+      <TouchableHighlight
+        style={styles.button}
+        onPress={onPressHandler}
+        activeOpactiy={0.5}
+        underlayColor='#dddddd'
+      >
+        <Text style={styles.text}>{submitted ? 'Clear' : 'Submit'}</Text>
+      </TouchableHighlight>
+      {submitted?
+        <Text style={styles.text}>
+          You are registered as {name} 
+        </Text>
+        :
+        null
+      }
+    </View>
+  )
+}
+
+const styles = StyleSheet.create ({
+  body: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+    alignItems: 'center',
+  },
+  text: {
+    color: '#000000',
+    fontSize: 20,
+    margin: 10,
+  },
+  input: {
+    width: 200,
+    borderWidth: 1,
+    borderColor: '#555',
+    borderRadius: 5,
+    textAlign: 'center',
+    fontSize: 20,
+    margin: 10,
+  },
+  button: {
+    width: 150,
+    height: 50,
+    backgroundColor: '#00ff00',
+    alignItems: 'center',
+  },
+})
+
+export default App;
+
+
+
+
+TouchableWithoutFeedback:
+
+import React, {useState} from 'react'
+import { StyleSheet, View, Text, Button, TouchableOpacity, TouchableHighlight } from 'react-native'
+import { TextInput, TouchableWithoutFeedback } from 'react-native-gesture-handler'
+
+const App = () => {
+
+  const [name, SetName] = useState('');
+  const [submitted, SetSubmitted] = useState(false);
+  const onPressHandler = () => {
+    SetSubmitted(!submitted);
+  }
+  
+  return (
+    <View style={styles.body}>
+      <Text style={styles.text}>
+        Please write your name: 
+      </Text>
+      <TextInput 
+        multiline
+        style={styles.input} 
+        placeholder='e.g. John'
+        onChangeText={(value) => SetName(value)}
+        keyboardType='numeric'
+        maxLength={4}
+        editable={false}
+        secureTextEntry
+      />
+      <TouchableWithoutFeedback
+        onPress={onPressHandler}
+      >
+        <View style={styles.button}>
+          <Text style={styles.text}>{submitted ? 'Clear' : 'Submit'}</Text>
+        </View>
+      </TouchableWithoutFeedback>
+      {submitted?
+        <Text style={styles.text}>
+          You are registered as {name} 
+        </Text>
+        :
+        null
+      }
+    </View>
+  )
+}
+
+const styles = StyleSheet.create ({
+  body: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+    alignItems: 'center',
+  },
+  text: {
+    color: '#000000',
+    fontSize: 20,
+    margin: 10,
+  },
+  input: {
+    width: 200,
+    borderWidth: 1,
+    borderColor: '#555',
+    borderRadius: 5,
+    textAlign: 'center',
+    fontSize: 20,
+    margin: 10,
+  },
+  button: {
+    width: 150,
+    height: 50,
+    backgroundColor: '#00ff00',
+    alignItems: 'center',
+  },
+})
+
+export default App;
+
+
+
+
+Pressable:
+
+https://reactnative.dev/docs/pressable
+
+import React, {useState} from 'react'
+import { StyleSheet, View, Text, Button, TouchableOpacity, TouchableHighlight, Pressable } from 'react-native'
+import { TextInput, TouchableWithoutFeedback } from 'react-native-gesture-handler'
+
+const App = () => {
+
+  const [name, SetName] = useState('');
+  const [submitted, SetSubmitted] = useState(false);
+  const onPressHandler = () => {
+    SetSubmitted(!submitted);
+  }
+  
+  return (
+    <View style={styles.body}>
+      <Text style={styles.text}>
+        Please write your name: 
+      </Text>
+      <TextInput 
+        multiline
+        style={styles.input} 
+        placeholder='e.g. John'
+        onChangeText={(value) => SetName(value)}
+        keyboardType='numeric'
+        maxLength={4}
+        editable={false}
+        secureTextEntry
+      />
+      <Pressable 
+        onPress={onPressHandler}
+        android_ripple={{color: '#00f'}}
+        style={({pressed}) => [
+          { backgroundColor: pressed ? '#dddddd' : '#00ff00' },
+          styles.button
+        ]}
+      >
+        <Text style={styles.text}>{submitted ? 'Clear' : 'Submit'}</Text>
+      </Pressable>
+      {submitted ?
+        <Text style={styles.text}>
+          You are registered as {name} 
+        </Text>
+        :
+        null
+      }
+    </View>
+  )
+}
+
+const styles = StyleSheet.create ({
+  body: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+    alignItems: 'center',
+  },
+  text: {
+    color: '#000000',
+    fontSize: 20,
+    margin: 10,
+  },
+  input: {
+    width: 200,
+    borderWidth: 1,
+    borderColor: '#555',
+    borderRadius: 5,
+    textAlign: 'center',
+    fontSize: 20,
+    margin: 10,
+  },
+  button: {
+    width: 150,
+    height: 50,
+    alignItems: 'center',
+  },
+})
+
+export default App;

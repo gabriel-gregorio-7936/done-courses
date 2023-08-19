@@ -1,0 +1,22 @@
+HarvardX CS50x
+CS50's Introduction to Computer Science
+
+Week 1:
+	make hello to compile the program
+	./hello to run the program
+	cs50.h
+	cd - change directory
+	cp - copy file
+	ls - list
+	mkdir - make a directory
+	mv - move (rename)
+	rm - remove
+	rmdir - remove directory
+
+	int, long, float, double
+	
+
+
+
+
+The author of AOT probably had read All You Need Is Kill , the science fiction the movie Edge of Tomorrow based on. In the movie, every time Cage gets killed time would be rewound, and only Cage can remember what happened after he wakes up. That explains the life review flashing in the dream of Eren Yeager when he was sleeping under a tree in episode #1.

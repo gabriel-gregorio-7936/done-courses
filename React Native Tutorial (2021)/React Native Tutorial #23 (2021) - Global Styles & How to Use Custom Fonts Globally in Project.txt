@@ -1,0 +1,18 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+    CustomFont: {
+        fontFamily: 'DancingScript-Regular'
+    }
+});
+
+
+
+Screen B
+return(
+      <View style={styles.body}>
+        <Text style={[
+          GlobalStyle.CustomFont,
+          styles.text
+          ]}
+        >
